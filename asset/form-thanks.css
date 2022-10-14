@@ -1,0 +1,43 @@
+.header{
+	background: none;
+}
+.eighth-content-page {
+    margin-top: 40px;
+}
+.top-eighth-content-page {
+	overflow: hidden;
+}
+h4.title-form {
+	font-size: 40px;
+	font-weight: 700;
+	color: #4040b2;
+	margin-top: 70px;
+}
+.form-sign-up {
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 68px;
+	background-color: #f8f8fe;
+}
+ul.list-top-menu {
+	margin-top: 23px;
+	float: right;
+}
+.left-top-menu {
+	overflow: hidden;
+	margin-top: 10%;
+}
+@media only screen and (max-width: 768px){
+	h4.title-form {
+		font-size: 20px;
+	}
+	ul.list-top-menu {
+		margin-top: 0px;
+		float: right;
+	}
+	.top-eighth-content-page {
+		overflow: hidden;
+		margin: 0;
+	}
+}
